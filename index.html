@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <title>Lift Simulation - Varun Khalate</title>
+    <script src="./js/lift.js"></script>
+    <script src="./js/floor.js"></script>
+    <script src="./js/main.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    <div id="input_page" >
+        <form class="input_form" onsubmit="event.preventDefault(); setUpLiftSimulation();">
+        <div>  
+        <div class="label">Enter no of floors</div>
+        <input id="floors_input" type="number" class="input_field" required/>
+    </div> 
+    <div>
+        <div class="label">Enter no of lifts</div>
+        <input id="lifts_input" type="number" required/>
+    </div>
+        <input id="simulate_btn" class="submit-button" type="submit">
+    </div>
+</form>
+     <div id="simulator_page" class="simulator_page_container">
+
+     </div>
+</body>

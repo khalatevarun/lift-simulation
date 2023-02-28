@@ -1,0 +1,75 @@
+body
+{
+    display:flex; 
+    flex-direction:column; 
+    justify-content:center;
+    align-items: center;
+    min-height:100vh;
+    background-color: #222831;
+    color: #EEEEEE;
+}
+
+.simulator_page_container {
+    width: 60vw;
+    padding: 100px 0px;
+}
+
+input {
+    padding: 4px 11px;
+}
+
+.input_form{
+   padding: 50px;
+   border: 1px solid #EEEEEE;
+   border-radius: 8px;
+   display:flex; 
+   flex-direction:column; 
+   justify-content:center;
+   align-items: center;
+}
+
+.label {
+    font-size:large;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.submit-button {
+   background-color: #00ADB5;
+   margin-top: 40px;
+   padding: 10px 0px;
+   width: 100%;
+   color: white;
+   border-radius: 8px;
+   border: none;
+   cursor: pointer;
+   font-size: large;
+}
+
+.left-gate {
+    background-color: #00ADB5;
+
+}.right-gate {
+    background-color: #00ADB5;
+}
+
+
+.button_down, .button_up {
+    padding: 4px 11px;
+    text-transform:uppercase;
+    font-size: large;
+    margin: 5px 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button_up {
+    background-color:  #FF6933 ;
+    width: 80px;
+}
+
+.button_down {
+    background-color:  #FAD074;
+    width: 80px;
+}
